@@ -1,0 +1,44 @@
+[gd_scene format=2]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 191.657
+margin_top = -485.446
+margin_right = 191.657
+margin_bottom = -485.446
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 533.0
+margin_bottom = 269.0
+color = Color( 0.00450911, 0.0296165, 0.164062, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="ColorRect"]
+margin_left = 8.0
+margin_top = 9.0
+margin_right = 525.0
+margin_bottom = 266.0
+visible_characters = 200
+percent_visible = 8.0
+text = "Hello somethings happened"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+margin_left = 223.786
+margin_top = -34.8647
+margin_right = 308.786
+margin_bottom = -2.86469
+bbcode_enabled = true
+bbcode_text = "This is a Text"
+text = "This is a Text"
+__meta__ = {
+"_edit_use_anchors_": false
+}
