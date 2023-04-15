@@ -7,9 +7,6 @@ margin_left = 191.657
 margin_top = -485.446
 margin_right = 191.657
 margin_bottom = -485.446
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="ColorRect" type="ColorRect" parent="."]
 margin_right = 533.0
@@ -24,12 +21,7 @@ margin_left = 8.0
 margin_top = 9.0
 margin_right = 525.0
 margin_bottom = 266.0
-visible_characters = 200
-percent_visible = 8.0
 text = "Hello somethings happened"
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="RichTextLabel" type="RichTextLabel" parent="."]
 margin_left = 223.786
